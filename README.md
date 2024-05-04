@@ -14,13 +14,11 @@
 
 #2 Creating Collapsible Content
 
-```
-You can use the <details> and <summary> tags, when you want to include
+You can use the &lt;details&gt; and &lt;summary&gt; tags, when you want to include
 collapsible content on your web page.
-The <details> tag creates a container for hidden content, while the
-<summary> tag provides a clickable label to toggle the visibility of that
+The &lt;details&gt; tag creates a container for hidden content, while the
+&lt;summary&gt; tag provides a clickable label to toggle the visibility of that
 content.
-```
 
 <details>
   <summary>Click to expand</summary>
@@ -32,14 +30,14 @@ content.
 Choose semantic elements over non-semantic elements for your websites.
 They make your code meaningful and improve structure, accessibility, and SEO.
 Utilize header, nav, section, article, aside and footer
-Not just div
+Not just div.
 
 #4 Grouping Form Elements
 
 Use the &lt;fieldset&gt; tag to group related elements in a form and the &lt;legend&gt;
 tag with &lt;fieldset&gt; to define a title for the &lt;fieldset&gt; tag.
 
-<!-- This is useful for creating more efficient and accessible forms. -->
+This is useful for creating more efficient and accessible forms.
 
 <form>
    <fieldset>
@@ -54,11 +52,10 @@ tag with &lt;fieldset&gt; to define a title for the &lt;fieldset&gt; tag.
    </fieldset>
 </form>
 
-/* 5 */
-/* Enhancing Dropdown Menus */
+#5 Enhancing Dropdown Menus
 
-<!-- You can use the <optgroup> tag to group related options in a <select> HTML tag. -->
-<!-- This can be used when you are working with large dropdown menus or a long list of options. -->
+You can use the &lt;optgroup&gt; tag to group related options in a &lt;select&gt; HTML tag.
+This can be used when you are working with large dropdown menus or a long list of options.
 
 <select>
    <optgroup label="Fruits">
@@ -73,21 +70,19 @@ tag with &lt;fieldset&gt; to define a title for the &lt;fieldset&gt; tag.
    </optgroup>
 </select>
 
-/* 6 */
-/* Improving Video Presentation */
+#6 Improving Video Presentation
 
-<!-- The poster attribute can be used with the <video> element to display an -->
-<!-- image until the user plays the video. -->
+The poster attribute can be used with the &lt;video&gt; element to display an
+image until the user plays the video.
 
 <video controls poster="image.png" width="500">
   <source src="video.mp4" type="video/mp4 />
 </video>
 
-/* 7 */
-/* Supporting Multiple Selections */
+#7 Supporting Multiple Selections
 
-<!-- You can use the multiple attribute with the <input> and <select> elements  -->
-<!-- to allow users to select/enter multiple values at once. -->
+You can use the multiple attribute with the &lt;input&gt; and &lt;select&gt; elements
+to allow users to select/enter multiple values at once.
 
 <input type="file" multiple />
 <select multiple>
