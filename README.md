@@ -92,8 +92,7 @@ to allow users to select/enter multiple values at once.
     <option value="rust">Rust</option>
 </select>
 
-/* 8 */
-/* Display Text as Subscript and Superscript */
+## 8 Display Text as Subscript and Superscript
 
 <!-- The <sub> and <sup> elements can be used to display the text as subscript  -->
 <!-- and superscript respectively. -->
@@ -108,8 +107,7 @@ to allow users to select/enter multiple values at once.
   (a + b)<sup>2</sup> = a <sup>2</sup> + b<sup>2</sup> + 2ab
 </p>
 
-/* 9 */
-/* Creating Download Links */
+## 9 Creating Download Links
 
 <!-- You can use the download attribute with the <a> element to specify that  -->
 <!-- when a user clicks the link, the linked resource should be downloaded  -->
@@ -117,8 +115,7 @@ to allow users to select/enter multiple values at once.
 
 <a href="document.pdf" download="document.pdf"> Download PDF </a>
 
-/* 10 */
-/* Defining Base URL for Relative Links */
+## 10 Defining Base URL for Relative Links
 
 <!-- You can use the <base> tag to define the base URL for all relative URLs in  -->
 <!-- a web page. -->
@@ -134,16 +131,14 @@ to allow users to select/enter multiple values at once.
    <a href="/get-in-touch">Contact</a>
 </body>
 
-/* 11 */
-/* Control Image Loading */
+## 11 Control Image Loading
 
 <!-- The loading attribute with the <img> element can be used to control how  -->
 <!-- the browser loads the image. It has three values: “eager”, “lazy”, and “auto”. -->
 
 <img src="picture.jpg" loading="lazy">
 
-/* 12 */
-/* Managing Translation Features */
+## 12 Managing Translation Features
 
 <!-- You can use the translate attribute to specify whether the content of an  -->
 <!-- element should be translated by the browser’s translation features. -->
@@ -152,24 +147,21 @@ to allow users to select/enter multiple values at once.
   This text should not be translated.
 </p>
 
-/* 13 */
-/* Setting Maximum Input Length */
+## 13 Setting Maximum Input Length
 
 <!-- By using the maxlength attribute, you can set the maximum number of  -->
 <!-- characters entered by the user in an input field. -->
 
 <input type="text" maxlength="4">
 
-/* 14 */
-/* Setting Minimum Input Length */
+## 14 Setting Minimum Input Length
 
 <!-- By using the minlength attribute, you can set the minimum number of  -->
 <!-- characters entered by the user in an input field. -->
 
 <input type="text" minlength="3">
 
-/* 15 */
-/* Enabling Content Editing */
+## 15 Enabling Content Editing
 
 <!-- Use the contenteditable attribute to specify whether the element’s content  -->
 <!-- is editable or not. -->
