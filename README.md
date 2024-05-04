@@ -1,10 +1,8 @@
 # HTML-tips
-HTML tips, tricks, techniques to be aware of in web development
+## HTML tips, tricks, techniques to be aware of in web development
 
-/* 1 */
-/* Creating Contact Links */
-
-<!-- Create clickable email, phone call, and SMS links using HTML: -->
+#1 Creating Contact Links
+<p>Create clickable email, phone call, and SMS links using HTML:</p>
 <!-- Email link -->
 <a href="mailto:name@example.com"> Send Email </a>
 
