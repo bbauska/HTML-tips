@@ -12,33 +12,32 @@
 <!-- SMS link -->
 <a href="sms:+1234567890"> Send SMS </a>
 
-/* 2 */
-/* Creating Collapsible Content */
+#2 Creating Collapsible Content
 
-<!-- You can use the <details> and <summary> tags, when you want to include  -->
-<!-- collapsible content on your web page. -->
-<!-- The <details> tag creates a container for hidden content, while the -->
-<!-- <summary> tag provides a clickable label to toggle the visibility of that -->
-<!-- content. -->
+```
+You can use the <details> and <summary> tags, when you want to include
+collapsible content on your web page.
+The <details> tag creates a container for hidden content, while the
+<summary> tag provides a clickable label to toggle the visibility of that
+content.
+```
 
 <details>
   <summary>Click to expand</summary>
   <p>This content can be expanded or collapsed.</p>
 </details>
 
-/* 3 */
-/* Utilizing Semantic Elements */
+#3 Utilizing Semantic Elements
 
-<!-- Choose semantic elements over non-semantic elements for your websites. -->
-<!-- They make your code meaningful and improve structure, accessibility, and SEO. -->
-<!-- Utilize header, nav, section, article, aside and footer -->
-<!-- Not just div -->
+Choose semantic elements over non-semantic elements for your websites.
+They make your code meaningful and improve structure, accessibility, and SEO.
+Utilize header, nav, section, article, aside and footer
+Not just div
 
-/* 4 */
-/* Grouping Form Elements */
+#4 Grouping Form Elements
 
-<!-- Use the <fieldset> tag to group related elements in a form and the <legend> -->
-<!-- tag with <fieldset> to define a title for the <fieldset> tag. -->
+Use the &lt;fieldset&gt; tag to group related elements in a form and the &lt;legend&gt;
+tag with &lt;fieldset&gt; to define a title for the &lt;fieldset&gt; tag.
 
 <!-- This is useful for creating more efficient and accessible forms. -->
 
