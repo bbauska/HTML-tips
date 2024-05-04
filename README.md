@@ -1,7 +1,7 @@
 # HTML-tips
 ## HTML tips, tricks, techniques to be aware of in web development
 
-#1 Creating Contact Links
+## 1 Creating Contact Links
 <p>Create clickable email, phone call, and SMS links using HTML:</p>
 <!-- Email link -->
 <a href="mailto:name@example.com"> Send Email </a>
@@ -12,7 +12,7 @@
 <!-- SMS link -->
 <a href="sms:+1234567890"> Send SMS </a>
 
-#2 Creating Collapsible Content
+## 2 Creating Collapsible Content
 
 You can use the &lt;details&gt; and &lt;summary&gt; tags, when you want to include
 collapsible content on your web page.
@@ -25,14 +25,14 @@ content.
   <p>This content can be expanded or collapsed.</p>
 </details>
 
-#3 Utilizing Semantic Elements
+## 3 Utilizing Semantic Elements
 
 Choose semantic elements over non-semantic elements for your websites.
 They make your code meaningful and improve structure, accessibility, and SEO.
 Utilize header, nav, section, article, aside and footer
 Not just div.
 
-#4 Grouping Form Elements
+## 4 Grouping Form Elements
 
 Use the &lt;fieldset&gt; tag to group related elements in a form and the &lt;legend&gt;
 tag with &lt;fieldset&gt; to define a title for the &lt;fieldset&gt; tag.
@@ -52,7 +52,7 @@ This is useful for creating more efficient and accessible forms.
    </fieldset>
 </form>
 
-#5 Enhancing Dropdown Menus
+## 5 Enhancing Dropdown Menus
 
 You can use the &lt;optgroup&gt; tag to group related options in a &lt;select&gt; HTML tag.
 This can be used when you are working with large dropdown menus or a long list of options.
@@ -70,7 +70,7 @@ This can be used when you are working with large dropdown menus or a long list o
    </optgroup>
 </select>
 
-#6 Improving Video Presentation
+## 6 Improving Video Presentation
 
 The poster attribute can be used with the &lt;video&gt; element to display an
 image until the user plays the video.
@@ -79,7 +79,7 @@ image until the user plays the video.
   <source src="video.mp4" type="video/mp4 />
 </video>
 
-#7 Supporting Multiple Selections
+## 7 Supporting Multiple Selections
 
 You can use the multiple attribute with the &lt;input&gt; and &lt;select&gt; elements
 to allow users to select/enter multiple values at once.
