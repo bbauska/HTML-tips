@@ -1,5 +1,5 @@
-# HTML-tips
-## HTML tips, tricks, techniques to be aware of in web development
+# HTML5-tips
+## HTML5 tips, tricks, techniques to be aware of in web development
 
 ## 1 Creating Contact Links
 <p>Create clickable email, phone call, and SMS links using HTML:</p>
